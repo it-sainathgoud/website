@@ -20,7 +20,8 @@ export default function Contact() {
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  Reach out to explore smart solutions for a changing world.
+                  We’re here to help you navigate change with clarity and
+                  innovation.
                 </p>
               </div>
             </div>
@@ -69,28 +70,22 @@ export default function Contact() {
                       id="email"
                       type="email"
                       className="form-input w-full"
-                      placeholder="Enter your work email email address"
+                      placeholder="Enter your work email address"
                     />
                   </div>
                   <div className="flex-1">
                     <label
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
-                      htmlFor="country"
+                      htmlFor="company"
                     >
-                      Country
+                      Company*
                     </label>
-                    <select
-                      id="country"
-                      className="form-select w-full text-gray-200"
-                      defaultValue={"default"}
-                    >
-                      <option value={"default"} disabled hidden>
-                        Select a country
-                      </option>
-                      <option>United States</option>
-                      <option>United Kingdom</option>
-                      <option>Germany</option>
-                    </select>
+                    <input
+                      id="company"
+                      type="company"
+                      className="form-input w-full"
+                      placeholder="Enter your company name"
+                    />
                   </div>
                 </div>
                 <div className="flex flex-col gap-x-6 gap-y-4 md:flex-row">
@@ -99,7 +94,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="topic"
                     >
-                      Topic
+                      Services / Products interested in*
                     </label>
                     <select
                       id="topic"
@@ -109,39 +104,105 @@ export default function Contact() {
                       <option value={"default"} disabled hidden>
                         Select a topic
                       </option>
-                      <option>General</option>
-                      <option>Business</option>
-                      <option>Finance</option>
-                      <option>Health</option>
-                      <option>Legal</option>
-                      <option>Marketing</option>
-                      <option>Productivity</option>
-                      <option>Security</option>
-                      <option>Software</option>
-                      <option>Travel</option>
+                      <option>IT Strategy & Consulting</option>
+                      <option>Cloud Infrastructure & Migration</option>
+                      <option>Artificial Intelligence & Data Analytics</option>
+                      <option>Enterprise Application Services</option>
+                      <option>Cybersecurity & Risk Management</option>
+                      <option>Intelligent Automation & RPA</option>
+                      <option>Digital Experience & Brand Transformation</option>
+                      <option>Business Process & Management</option>
+                      <option>Product Development & Innovation</option>
+                      <option>Project Management Services</option>
+                      <option>Security & Defense Technology Solutions</option>
+                      <option>Industry-Specific IT Solutions</option>
+                      <option>Human Resource & Workforce Technology</option>
                     </select>
                   </div>
-                  <div className="flex-1">
-                    <label
-                      className="mb-1 block text-sm font-medium text-indigo-200/65"
-                      htmlFor="subject"
-                    >
-                      Subject
-                    </label>
-                    <input
-                      id="subject"
-                      type="text"
-                      className="form-input w-full"
-                      placeholder="Let us know how we can help"
-                    />
-                  </div>
+                  {
+                    <div className="flex-1">
+                      <label
+                        className="mb-1 block text-sm font-medium text-indigo-200/65"
+                        htmlFor="country"
+                      >
+                        Country*
+                      </label>
+                      <select
+                        id="country"
+                        className="form-select w-full text-gray-200"
+                        defaultValue={"default"}
+                      >
+                        <option value={"default"} disabled hidden>
+                          Select a country
+                        </option>
+                        {/* <!-- North America --> */}
+                        <option>United States</option>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+
+                        {/* <!-- Europe --> */}
+                        <option>United Kingdom</option>
+                        <option>Germany</option>
+                        <option>France</option>
+                        <option>Netherlands</option>
+                        <option>Switzerland</option>
+                        <option>Sweden</option>
+                        <option>Italy</option>
+                        <option>Spain</option>
+
+                        {/* <!-- Asia Pacific --> */}
+                        <option>India</option>
+                        <option>China</option>
+                        <option>Japan</option>
+                        <option>South Korea</option>
+                        <option>Singapore</option>
+                        <option>Australia</option>
+                        <option>New Zealand</option>
+                        <option>Indonesia</option>
+                        <option>Vietnam</option>
+
+                        {/* <!-- Middle East --> */}
+                        <option>United Arab Emirates</option>
+                        <option>Saudi Arabia</option>
+                        <option>Qatar</option>
+                        <option>Israel</option>
+
+                        {/* <!-- Africa --> */}
+                        <option>South Africa</option>
+                        <option>Nigeria</option>
+                        <option>Egypt</option>
+                        <option>Kenya</option>
+
+                        {/* <!-- Latin America --> */}
+                        <option>Brazil</option>
+                        <option>Argentina</option>
+                        <option>Chile</option>
+                        <option>Colombia</option>
+                      </select>
+                    </div>
+                    /*  */
+                  }
+                </div>
+                <div className="flex-1">
+                  <label
+                    className="mb-1 block text-sm font-medium text-indigo-200/65"
+                    htmlFor="subject"
+                  >
+                    Subject*
+                  </label>
+                  <input
+                    id="subject"
+                    type="text"
+                    className="form-input w-full"
+                    placeholder="Brief summary of your email"
+                  />
                 </div>
                 <div>
                   <label
                     className="mb-1 block text-sm font-medium text-indigo-200/65"
                     htmlFor="description"
                   >
-                    Full description
+                    Message
                   </label>
                   <textarea
                     id="description"
