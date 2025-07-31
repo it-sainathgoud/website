@@ -20,70 +20,182 @@ export default function Footer() {
           />
         </div>
         <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
-          {/* 1st block */}
+          {/* 1st block 
+          Digital Transformation
+          Technology Excellence
+          Talent Mobilization
+          Customer Experiences
+          Healthcare Transformation
+          Business Growth Solutions
+          Engineering
+          Security & Surveillance
+          */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Product</h3>
+            <h3 className="text-sm font-medium text-gray-200">Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  Features
+                  Digital Transformation
                 </a>
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  Integrations
+                  Technology Excellence
                 </a>
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  Pricing &amp; Plans
+                  Customer Experiences
                 </a>
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  Changelog
+                  Talent Mobilization
                 </a>
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  Our method
+                  Healthcare Transformation
                 </a>
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
                   href="#0"
                 >
-                  User policy
+                  Business Growth Solutions
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Engineering
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Security & Surveillance
                 </a>
               </li>
             </ul>
           </div>
-          {/* 2nd block */}
+          {/* 2nd block 
+          Industries
+          Banking & Financial Services
+          Energy & Utilities
+          Retail & Consumer Goods
+          Healthcare & Life Sciences
+          Public Sector
+          Telecommunications
+          Energy & Utilities
+          Security & Defense
+          Travel, Transportation & Hospitality
+          */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Company</h3>
+            <h3 className="text-sm font-medium text-gray-200">Industries</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Banking &amp; Financial Services
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Energy &amp; Utilities
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Healthcare &amp; Life Sciences
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Public Sector
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Retail &amp; Consumer Goods
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Security &amp; Defense
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Telecommunications
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500 whitespace-nowrap"
+                  href="#0"
+                >
+                  Travel, Transportation &amp; Hospitality
+                </a>
+              </li>
+            </ul>
+          </div>
+          {/* 3rd block 
+          Resources
+          Blogs
+          Success Stories
+          Client Testimonials
+          White Papers
+          */}
+          <div className="space-y-2">
+            <h3 className="text-sm font-medium text-gray-200">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  About us
+                  Blogs
                 </a>
               </li>
               <li>
@@ -91,7 +203,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Diversity &amp; Inclusion
+                  Success Stories
                 </a>
               </li>
               <li>
@@ -99,7 +211,45 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Blog
+                  Client Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#0"
+                >
+                  White Papers
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#0"
+                >
+                  Trailblazers
+                </a>
+              </li>
+            </ul>
+          </div>
+          {/* 4th block 
+          About 
+          About Us
+          Careers
+          Partners
+          Sustainability
+          Diversity & Inclusion
+          
+          */}
+          <div className="space-y-2">
+            <h3 className="text-sm font-medium text-gray-200">About</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#0"
+                >
+                  About Us
                 </a>
               </li>
               <li>
@@ -115,21 +265,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Financial statements
-                </a>
-              </li>
-            </ul>
-          </div>
-          {/* 3rd block */}
-          <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Resources</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Community
+                  Partners
                 </a>
               </li>
               <li>
@@ -137,7 +273,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Terms of service
+                  Sustainability
                 </a>
               </li>
               <li>
@@ -145,55 +281,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Report a vulnerability
-                </a>
-              </li>
-            </ul>
-          </div>
-          {/* 4th block */}
-          <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">
-              Content Library
-            </h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Templates
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Tutorials
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Knowledge base
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Learn
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Cookie manager
+                  Diversity & Inclusion
                 </a>
               </li>
             </ul>
@@ -205,7 +293,7 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © Cruip.com
+                © Mindtris.com
                 <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
@@ -263,6 +351,38 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+        </div>
+
+        {/* Land acknowledgment */}
+        <div className="mt-4 text-sm text-indigo-200/65 max-w-6xl text-left whitespace-normal">
+          <p>
+            <strong className="text-indigo-200/65 transition hover:text-indigo-500">
+              Mindtris
+            </strong>
+            is a global technology consulting and digital solutions firm that
+            partners with organizations across industries to reimagine business
+            models, accelerate innovation, and drive sustainable growth through
+            digital transformation. Serving both public and private sector
+            clients, we bring deep domain expertise and cutting-edge technology
+            capabilities to deliver differentiated customer experiences and
+            impactful business outcomes in an increasingly connected world.
+          </p>
+          <p className="mt-4">
+            We respectfully acknowledge that Mindtris operates on the unceded
+            territories of the
+            <span className="italic">xʷməθkʷəy̓əm (Musqueam)</span>,
+            <span className="italic">
+              Sḵwx̱wú7mesh Úxwumixw (Squamish Nation)
+            </span>
+            , and{" "}
+            <span className="italic">səl̓ílwətaʔ (Tsleil-Waututh Nation)</span>.
+            We recognize that colonialism has obscured their histories and
+            enduring relationships with the land. As a company, we are committed
+            to learning, listening, and building meaningful relationships with
+            the Indigenous communities whose lands we are privileged to work on.
+          </p>
+          <br />
+          <br />
         </div>
       </div>
     </footer>
