@@ -357,7 +357,7 @@ export default function Footer() {
         <div className="mt-4 text-sm text-indigo-200/65 max-w-6xl text-left whitespace-normal">
           <p>
             <strong className="text-indigo-200/65 transition hover:text-indigo-500">
-              Mindtris
+              Mindtris&nbsp; 
             </strong>
             is a global technology consulting and digital solutions firm that
             partners with organizations across industries to reimagine business

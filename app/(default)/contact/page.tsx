@@ -20,8 +20,7 @@ export default function Contact() {
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  We have custom plans to power your business. Tell us your
-                  needs, and we'll contact you shortly.
+                  Reach out to explore smart solutions for a changing world.
                 </p>
               </div>
             </div>
@@ -34,13 +33,13 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="first-name"
                     >
-                      Name
+                      First name*
                     </label>
                     <input
                       id="first-name"
                       type="text"
                       className="form-input w-full"
-                      placeholder="Your name"
+                      placeholder="Your first name"
                     />
                   </div>
                   <div className="flex-1">
@@ -48,13 +47,13 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="last-name"
                     >
-                      Surname
+                      Last name*
                     </label>
                     <input
                       id="last-name"
                       type="text"
                       className="form-input w-full"
-                      placeholder="Your surname"
+                      placeholder="Your last name"
                     />
                   </div>
                 </div>
@@ -64,13 +63,13 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="email"
                     >
-                      Email
+                      Work email*
                     </label>
                     <input
                       id="email"
                       type="email"
                       className="form-input w-full"
-                      placeholder="Enter your email address"
+                      placeholder="Enter your work email email address"
                     />
                   </div>
                   <div className="flex-1">
