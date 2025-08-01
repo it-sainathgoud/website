@@ -9,7 +9,7 @@ export default function PricingTable() {
     <div>
       {/* Pricing toggle */}
       <label className="mb-16 flex cursor-pointer items-center justify-center gap-4 text-indigo-200/65">
-        <span className="flex-1 text-right" aria-hidden="true">
+        {/* <span className="flex-1 text-right" aria-hidden="true">
           Billed Annually
         </span>
         <span className="sr-only">Billed Annually</span>
@@ -26,33 +26,33 @@ export default function PricingTable() {
         />
         <span className="flex-1 text-left" aria-hidden="true">
           Billed Monthly
-        </span>
+        </span> */}
       </label>
       <div className="mx-auto grid max-w-xs items-start gap-8 md:max-w-2xl md:grid-cols-2 xl:max-w-none xl:grid-cols-4 xl:gap-6">
         {/* Pricing table 1 */}
         <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Freelancer
+              Basic
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
               <span className="text-2xl text-indigo-200/65">$</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
-                {annual ? "7" : "9"}
+                {annual ? "1299" : "9"}
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
-              Per user/month, billed annually.
+              1 vacancy, up to 1 hire.
             </div>
             <a
               className="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-              href="#0"
+              href="/contact"
             >
-              Start free trial
+              Get started now
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
-            Freelancer includes:
+            Basic plan includes:
           </p>
           <ul className="grow space-y-2 text-sm text-indigo-200/65">
             <li className="flex items-center">
@@ -101,22 +101,22 @@ export default function PricingTable() {
         <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Small Team
+              Standard
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
               <span className="text-2xl text-indigo-200/65">$</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
-                {annual ? "27" : "29"}
+                {annual ? " 2499" : "29"}
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
-              Per user/month, billed annually.
+              10 vacancy, up to 1 hire.
             </div>
             <a
               className="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-              href="#0"
+              href="/contact"
             >
-              Start free trial
+              Get started now
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
@@ -172,22 +172,22 @@ export default function PricingTable() {
               Popular
             </div>
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Business
+              Professional
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
               <span className="text-2xl text-indigo-200/65">$</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
-                {annual ? "47" : "49"}
+                {annual ? " 3499" : "49"}
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
-              Per user/month, billed annually.
+              3 vacancy, up to 1 hire.
             </div>
             <a
               className="btn-sm w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%]"
-              href="#0"
+              href="/contact"
             >
-              Start free trial
+              Get started now
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
@@ -240,22 +240,22 @@ export default function PricingTable() {
         <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Enterprise Team
+              Enterprise
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
               <span className="text-2xl text-indigo-200/65">$</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
-                {annual ? "87" : "89"}
+                {annual ? " 5499" : "89"}
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
-              Per user/month, billed annually.
+              5 vacancy, up to 1 hire.
             </div>
             <a
               className="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-              href="#0"
+              href="/contact"
             >
-              Start free trial
+              Get started now
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
