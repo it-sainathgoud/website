@@ -369,8 +369,8 @@ export default function Footer() {
           </p>
           <p className="mt-4">
             We respectfully acknowledge that Mindtris operates on the unceded
-            territories of the
-            <span className="italic">xʷməθkʷəy̓əm (Musqueam)</span>,
+            territories of the&nbsp;
+            <span className="italic">xʷməθkʷəy̓əm (Musqueam)</span>,&nbsp;
             <span className="italic">
               Sḵwx̱wú7mesh Úxwumixw (Squamish Nation)
             </span>
