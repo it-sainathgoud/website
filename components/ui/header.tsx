@@ -32,7 +32,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Digital Transformation
@@ -40,7 +40,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Technology Excellence
@@ -48,7 +48,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Customer Experiences
@@ -56,7 +56,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Talent Mobilization
@@ -64,7 +64,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Healthcare Transformation
@@ -72,7 +72,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Business Growth Solutions
@@ -80,7 +80,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Engineering
@@ -88,7 +88,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Security & Surveillance
@@ -101,7 +101,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/newsletter"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Banking & Financial Services
@@ -109,7 +109,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Retail & Consumer Goods
@@ -117,7 +117,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Healthcare & Life Sciences
@@ -125,7 +125,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Public Sector
@@ -133,7 +133,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Telecommunications
@@ -141,7 +141,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Healthcare & Life Sciences
@@ -149,7 +149,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Energy & Utilities
@@ -157,7 +157,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Travel, Transportation & Hospitality
@@ -166,7 +166,7 @@ export default function Header() {
               </Dropdown>
               <li>
                 <Link
-                  href="/404"
+                  href="/#0"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   Products
@@ -177,7 +177,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Blogs
@@ -185,7 +185,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Success Stories
@@ -193,7 +193,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Client Testimonials
@@ -201,7 +201,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     White Papers
@@ -261,7 +261,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/404"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Diversity & Inclusion
