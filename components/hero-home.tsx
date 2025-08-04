@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 const slides = [
   {
     h1: "Boost digital transformation",
-    p: "Empower your digital transformation journey with us, ensuring you stay ahead in the digital era and achieve sustainable growth.",
+    p: "Drive innovation, agility, and growth with tailored digital transformation strategies built to scale, adapt, and deliver measurable impact across your business.",
     buttons: [
       { label: "Explore Services", href: "/services" },
       { label: "Schedule a Call", href: "/contact" },
@@ -16,31 +16,31 @@ const slides = [
   },
   {
     h1: "Take your hiring to new heights",
-    p: "Hire top IT, cloud, and AI talent fast—no placement fees, no delays. Scalable, subscription-based recruiting built for growth.",
+    p: "Hire top IT, cloud, and AI talent fast with no placement fees, no delays. Scalable, subscription-based recruiting built for growth.",
     buttons: [
       { label: "Start Free Trial", href: "/start-trial" },
       { label: "Get Demo", href: "/demo" },
     ],
   },
-    {
+  {
     h1: "Managed services for maximum value",
-    p: "Empower your digital transformation journey with us, ensuring you stay ahead in the digital era and achieve sustainable growth.",
+    p: "Scalable managed services that reduce costs, enhance efficiency, and empower your team to focus on strategic growth.",
     buttons: [
       { label: "Explore Services", href: "/services" },
       { label: "Schedule a Call", href: "/contact" },
     ],
   },
-    {
-    h1: "Boost digital transformation",
-    p: "Empower your digital transformation journey with us, ensuring you stay ahead in the digital era and achieve sustainable growth.",
+  {
+    h1: "Transform workflows with generative AI",
+    p: "Enhance decision-making and streamline tasks with generative AI built for scale and adaptability.",
     buttons: [
       { label: "Explore Services", href: "/services" },
       { label: "Schedule a Call", href: "/contact" },
     ],
   },
-    {
-    h1: "Boost digital transformation",
-    p: "Empower your digital transformation journey with us, ensuring you stay ahead in the digital era and achieve sustainable growth.",
+  {
+    h1: "Elevate customer experience",
+    p: "Improve satisfaction, increase retention, and deliver consistent value at every customer touchpoint.",
     buttons: [
       { label: "Explore Services", href: "/services" },
       { label: "Schedule a Call", href: "/contact" },
