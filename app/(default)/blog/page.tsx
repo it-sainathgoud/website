@@ -32,12 +32,13 @@ export default function Blog() {
             {/* Section header */}
             <div className="pb-12 text-center">
               <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl">
-                The Open PRO Blog
+                Success stories and industry trends
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  Discover the latest news, tips and user research insights from
-                  Open PRO.
+                  Access curated blogs, case studies, testimonials, and white
+                  papers showcasing business success, innovation, and emerging
+                  market trends.
                 </p>
               </div>
             </div>

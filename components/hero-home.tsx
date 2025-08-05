@@ -19,7 +19,7 @@ const slides = [
     p: "Hire top IT, cloud, and AI talent fast with no placement fees, no delays. Scalable, subscription-based recruiting built for growth.",
     buttons: [
       { label: "Start Free Trial", href: "/start-trial" },
-      { label: "Get Demo", href: "/demo" },
+      { label: "Get Demo", href: "/contact" },
     ],
   },
   {

@@ -229,7 +229,7 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/about"
+                    href="/#0"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     About Us

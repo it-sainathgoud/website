@@ -38,9 +38,6 @@ export const metadata = {
   },
 };
 
-
-// MINDTRIS landing page starts here..  
-
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
 import Workflows from "@/components/workflows";
@@ -49,6 +46,7 @@ import Pricing from "@/components/pricing-home";
 import SplitCarousel from "@/components/split-carousel";
 import Cta from "@/components/cta";
 import Newsletter from "@/components/newsletter";
+import FeatureBlogs from "@/components/feature-blogs";
 
 export default function Home() {
   return (
@@ -56,10 +54,10 @@ export default function Home() {
       <PageIllustration />
       <Hero />
       <Workflows />
-      
       {/* <Features /> */}
       {/* <SplitCarousel /> */}
       {/* <Pricing /> */}
+      <FeatureBlogs />
       <Cta />
       <Newsletter />
     </>
