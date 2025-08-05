@@ -48,6 +48,7 @@ import Features from "@/components/features";
 import Pricing from "@/components/pricing-home";
 import SplitCarousel from "@/components/split-carousel";
 import Cta from "@/components/cta";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
@@ -55,10 +56,12 @@ export default function Home() {
       <PageIllustration />
       <Hero />
       <Workflows />
-      <Features />
-      <SplitCarousel />
-      <Pricing />
+      
+      {/* <Features /> */}
+      {/* <SplitCarousel /> */}
+      {/* <Pricing /> */}
       <Cta />
+      <Newsletter />
     </>
   );
 }
