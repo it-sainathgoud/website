@@ -59,7 +59,7 @@ export default function Industries() {
   return (
     <>
       <PageIllustration />
-      <Hero />
+      {/* <Hero /> */}
       {/* <Faqs />
       <Testimonials />
       <Cta /> */}

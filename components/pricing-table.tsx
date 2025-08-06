@@ -8,7 +8,7 @@ export default function PricingTable() {
   return (
     <div>
       {/* Pricing toggle */}
-      <label className="mb-16 flex cursor-pointer items-center justify-center gap-4 text-indigo-200/65">
+      <label className="mb-4 flex cursor-pointer items-center justify-center gap-4 text-indigo-200/65">
         {/* <span className="flex-1 text-right" aria-hidden="true">
           Billed Annually
         </span>

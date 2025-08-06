@@ -56,7 +56,7 @@ export default function Home() {
       <Workflows />
       {/* <Features /> */}
       {/* <SplitCarousel /> */}
-      {/* <Pricing /> */}
+      <Pricing />
       {/* <FeatureBlogs /> */}
       <Cta />
       <Newsletter />
