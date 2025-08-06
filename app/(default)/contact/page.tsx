@@ -116,7 +116,7 @@ export default function Contact() {
                       <option>Project Management Services</option>
                       <option>Security & Defense Technology Solutions</option>
                       <option>Industry-Specific IT Solutions</option>
-                      <option>Human Resource & Workforce Technology</option>
+                      <option>Human Resource & Workforce Solutions</option>
                     </select>
                   </div>
                   {
