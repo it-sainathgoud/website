@@ -22,9 +22,8 @@ export default function HeroTalentHub() {
               data-aos="fade-up"
               data-aos-delay={200}
             >
-              Our scalable recruitment with predictable monthly
-              pricing, helps you hire top global talent quickly and cost
-              effectively.
+              Our scalable recruitment with predictable monthly pricing, helps
+              you hire top global talent quickly and cost effectively.
             </p>
           </div>
 
@@ -53,81 +52,82 @@ export default function HeroTalentHub() {
             </div>
           </div>
         </div>
-
-        {/* Pricing + Charities CTA */}
-        <div className="relative py-16 md:py-24">
-          {/* Background Illustration */}
-          <div
-            className="pointer-events-none absolute bottom-28 left-1/2 -z-10 -ml-28 -translate-x-1/2 translate-y-1/2"
-            aria-hidden="true"
-          >
-            <Image
-              className="md:max-w-none"
-              src={SecondaryIllustration}
-              width={1165}
-              height={1012}
-              alt="Secondary illustration"
-            />
-          </div>
-
-          {/* Pricing Table */}
-          {/* <PricingTable /> */}
-
-          {/* Charities CTA */}
-          {/* <div className="mt-8 max-w-2xl xl:max-w-none">
-            <a
-              className="group flex items-center justify-between gap-3 rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 px-4 py-4 backdrop-blur-xs transition-all duration-300 hover:bg-[length:400%_100%]"
-              href="/contact"
-            >
-              <span className="text-indigo-200/65">
-                <span className="font-medium text-gray-200">
-                  Are you a charity or non-profit organization?
-                </span>{" "}
-                Let’s chat about how Mindtris helps non-profits find great
-                talent at no cost.
-              </span>
-              <span
-                className="flex shrink-0 items-center gap-3"
-                aria-hidden="true"
-              >
-                <span className="-ml-0.5 flex -space-x-3">
-                  <Image
-                    className="rounded-full border-2 border-gray-900"
-                    src={AvatarImg01}
-                    width={24}
-                    height={24}
-                    alt="Avatar 01"
-                  />
-                  <Image
-                    className="rounded-full border-2 border-gray-900"
-                    src={AvatarImg02}
-                    width={24}
-                    height={24}
-                    alt="Avatar 02"
-                  />
-                  <Image
-                    className="rounded-full border-2 border-gray-900"
-                    src={AvatarImg03}
-                    width={24}
-                    height={24}
-                    alt="Avatar 03"
-                  />
-                  <Image
-                    className="rounded-full border-2 border-gray-900"
-                    src={AvatarImg04}
-                    width={24}
-                    height={24}
-                    alt="Avatar 04"
-                  />
-                </span>
-                <span className="text-indigo-500 group-hover:translate-x-0.5">
-                  -&gt;
-                </span>
-              </span>
-            </a>
-          </div> */}
-        </div>
       </div>
     </section>
   );
 }
+
+// use this illustration later.. 
+        // {/* Pricing + Charities CTA */}
+        // <div className="relative py-16 md:py-24">
+        //   {/* Background Illustration */}
+        //   <div
+        //     className="pointer-events-none absolute bottom-28 left-1/2 -z-10 -ml-28 -translate-x-1/2 translate-y-1/2"
+        //     aria-hidden="true"
+        //   >
+        //     <Image
+        //       className="md:max-w-none"
+        //       src={SecondaryIllustration}
+        //       width={1165}
+        //       height={1012}
+        //       alt="Secondary illustration"
+        //     />
+        //   </div>
+
+        //   {/* Pricing Table */}
+        //   {/* <PricingTable /> */}
+
+        //   {/* Charities CTA */}
+        //   {/* <div className="mt-8 max-w-2xl xl:max-w-none">
+        //     <a
+        //       className="group flex items-center justify-between gap-3 rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 px-4 py-4 backdrop-blur-xs transition-all duration-300 hover:bg-[length:400%_100%]"
+        //       href="/contact"
+        //     >
+        //       <span className="text-indigo-200/65">
+        //         <span className="font-medium text-gray-200">
+        //           Are you a charity or non-profit organization?
+        //         </span>{" "}
+        //         Let’s chat about how Mindtris helps non-profits find great
+        //         talent at no cost.
+        //       </span>
+        //       <span
+        //         className="flex shrink-0 items-center gap-3"
+        //         aria-hidden="true"
+        //       >
+        //         <span className="-ml-0.5 flex -space-x-3">
+        //           <Image
+        //             className="rounded-full border-2 border-gray-900"
+        //             src={AvatarImg01}
+        //             width={24}
+        //             height={24}
+        //             alt="Avatar 01"
+        //           />
+        //           <Image
+        //             className="rounded-full border-2 border-gray-900"
+        //             src={AvatarImg02}
+        //             width={24}
+        //             height={24}
+        //             alt="Avatar 02"
+        //           />
+        //           <Image
+        //             className="rounded-full border-2 border-gray-900"
+        //             src={AvatarImg03}
+        //             width={24}
+        //             height={24}
+        //             alt="Avatar 03"
+        //           />
+        //           <Image
+        //             className="rounded-full border-2 border-gray-900"
+        //             src={AvatarImg04}
+        //             width={24}
+        //             height={24}
+        //             alt="Avatar 04"
+        //           />
+        //         </span>
+        //         <span className="text-indigo-500 group-hover:translate-x-0.5">
+        //           -&gt;
+        //         </span>
+        //       </span>
+        //     </a>
+        //   </div> */}
+        // </div>

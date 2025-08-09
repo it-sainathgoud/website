@@ -57,6 +57,7 @@ import FeaturesTalentHub from "@/components/features-talent-hub";
 import FaqsTalentHub from "@/components/faqs-talent-hub";
 import TestimonialsTalentHub from "@/components/testimonials-talent-hub";
 import CtaTalentHub from "@/components/cta-talent-hub";
+import ClientsTalentHub from "@/components/clients-talent-hub"
 
 /***
  * HeroTalentHub
@@ -69,11 +70,11 @@ export default function TalentHub() {
   return (
     <>
       <PageIllustration />
-      <HeroTalentHub />      
-      {/* <FeaturesTalentHub/>
-      <FaqsTalentHub />
-      <TestimonialsTalentHub />
-      <CtaTalentHub /> */}
+      <HeroTalentHub />   
+      {/* <FeaturesTalentHub/> */}
+      {/* <FaqsTalentHub /> */}
+      {/* <TestimonialsTalentHub /> */}
+      {/* <CtaTalentHub /> */}
     </>
   );
 }
