@@ -6,7 +6,7 @@ import PricingTable from "@/components/pricing-table";
 export default function PricingHome() {
   return (
     <section className="relative">
-      {/* <div
+      <div
         className="pointer-events-none absolute bottom-0 left-1/2 -z-10 -mb-20 -translate-x-1/3"
         aria-hidden="true"
       >
@@ -17,7 +17,7 @@ export default function PricingHome() {
           height={668}
           alt="Blurred shape"
         />
-      </div> */}
+      </div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}

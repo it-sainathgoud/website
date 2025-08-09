@@ -166,7 +166,7 @@ export default function Header() {
               </Dropdown>
               <li>
                 <Link
-                  href="/#0"
+                  href="/talenthub"
                   className="flex items-center px-2 py-1 text-gray-200 transition hover:text-indigo-500 lg:px-3"
                 >
                   TalentHub

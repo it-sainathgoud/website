@@ -47,6 +47,7 @@ import SplitCarousel from "@/components/split-carousel";
 import Cta from "@/components/cta";
 import Newsletter from "@/components/newsletter";
 import FeatureBlogs from "@/components/feature-blogs";
+// import ServicesCarousel from "@/components/services-carousel";
 
 export default function Home() {
   return (
@@ -54,8 +55,9 @@ export default function Home() {
       <PageIllustration />
       <Hero />
       <Workflows />
-      {/* <Features /> */}
-      {/* <SplitCarousel /> */}
+      {/* <ServicesCarousel /> */}
+      {/* <Features />
+      <SplitCarousel /> */}
       <Pricing />
       {/* <FeatureBlogs /> */}
       <Cta />

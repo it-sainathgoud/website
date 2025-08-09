@@ -57,7 +57,7 @@ export default function Newsletter() {
                 Join our newsletter
               </h1>
               <div className="max-w-2xl ml-auto ">
-                <p className="text-lg text-indigo-200/65 text-right ">
+                <p className=" text-indigo-200/65 text-right ">
                   Join our newsletter for early updates on services, expert guidance, and offers crafted to support your business evolution!
                 </p>
               </div>

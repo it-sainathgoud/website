@@ -194,7 +194,7 @@ export default function MobileMenu() {
             {/* Products */}
             <li>
               <Link
-                href="/#0"
+                href="/talenthub"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
                 onClick={() => setMobileNavOpen(false)}
               >
