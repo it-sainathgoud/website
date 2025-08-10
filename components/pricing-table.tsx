@@ -28,17 +28,18 @@ export default function PricingTable() {
           Billed Monthly
         </span> */}
       </label>
-      <div className="mx-auto grid max-w-xs items-start gap-8 md:max-w-2xl md:grid-cols-2 xl:max-w-none xl:grid-cols-4 xl:gap-6">
+      <div className="mx-auto grid max-w-xs items-start gap-8 md:max-w-2xl md:grid-cols-2 xl:max-w-none xl:grid-cols-3 xl:gap-10">
         {/* Pricing table 1 */}
         <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Basic
+              Growth
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
-              <span className="text-2xl text-indigo-200/65">$</span>
+              <span className="text-2xl text-indigo-200/65">$&nbsp;</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
                 {annual ? "1299" : "9"}
+                <span className="text-2xl font-medium text-indigo-200/65">&nbsp;/month</span>
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
@@ -52,7 +53,7 @@ export default function PricingTable() {
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
-            Basic plan includes:
+            Growht plan includes:
           </p>
           <ul className="grow space-y-2 text-sm text-indigo-200/65">
             <li className="flex items-center">
@@ -63,7 +64,7 @@ export default function PricingTable() {
               >
                 <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
               </svg>
-              <span>50 users per month</span>
+              <span>Dedicated account manager</span>
             </li>
             <li className="flex items-center">
               <svg
@@ -98,7 +99,7 @@ export default function PricingTable() {
           </ul>
         </div>
         {/* Pricing table 2 */}
-        <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
+        {/* <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
               Standard
@@ -164,7 +165,7 @@ export default function PricingTable() {
               <span>Custom billing</span>
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* Pricing table 3 */}
         <div className="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,--theme(--color-indigo-500/.5),--theme(--color-indigo-500),--theme(--color-indigo-500/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
           <div className="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
@@ -172,12 +173,13 @@ export default function PricingTable() {
               Popular
             </div>
             <div className="mb-2 font-nacelle text-[1rem] text-gray-200">
-              Professional
+              Scale
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
-              <span className="text-2xl text-indigo-200/65">$</span>
+              <span className="text-2xl text-indigo-200/65">$ &nbsp;</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
                 {annual ? " 3499" : "49"}
+                <span className="text-2xl font-medium text-indigo-200/65">&nbsp;/month</span>
               </span>
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
@@ -191,7 +193,7 @@ export default function PricingTable() {
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
-            Everything in Small Team, plus:
+            Everything in Growth, plus:
           </p>
           <ul className="grow space-y-2 text-sm text-indigo-200/65">
             <li className="flex items-center">
@@ -243,10 +245,11 @@ export default function PricingTable() {
               Enterprise
             </div>
             <div className="mb-1.5 flex items-baseline font-nacelle">
-              <span className="text-2xl text-indigo-200/65">$</span>
+              <span className="text-2xl text-indigo-200/65">&nbsp;</span>
               <span className="text-4xl font-semibold tabular-nums text-gray-200">
-                {annual ? " 5499" : "89"}
+                {annual ? "Custom" : "89"}
               </span>
+              {/* <span className="text-2xl text-indigo-200/65">/month</span> */}
             </div>
             <div className="mb-4 grow text-xs text-indigo-200/65">
               5 vacancy, up to 1 hire.
@@ -259,7 +262,7 @@ export default function PricingTable() {
             </a>
           </div>
           <p className="mb-4 text-sm italic text-gray-200">
-            Everything in Business, plus:
+            Everything in Scale, plus:
           </p>
           <ul className="grow space-y-2 text-sm text-indigo-200/65">
             <li className="flex items-center">
@@ -270,7 +273,7 @@ export default function PricingTable() {
               >
                 <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
               </svg>
-              <span>Strongest connection</span>
+              <span>Dedicated account manager</span>
             </li>
             <li className="flex items-center">
               <svg
@@ -290,7 +293,7 @@ export default function PricingTable() {
               >
                 <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
               </svg>
-              <span>Historical attributes</span>
+              <span>Volume based recruiting</span>
             </li>
             <li className="flex items-center">
               <svg
