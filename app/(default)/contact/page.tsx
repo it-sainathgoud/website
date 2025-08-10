@@ -34,7 +34,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="first-name"
                     >
-                      First name*
+                      First name *
                     </label>
                     <input
                       id="first-name"
@@ -48,7 +48,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="last-name"
                     >
-                      Last name*
+                      Last name *
                     </label>
                     <input
                       id="last-name"
@@ -64,7 +64,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="email"
                     >
-                      Work email*
+                      Work email *
                     </label>
                     <input
                       id="email"
@@ -78,7 +78,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="company"
                     >
-                      Company*
+                      Company *
                     </label>
                     <input
                       id="company"
@@ -94,7 +94,7 @@ export default function Contact() {
                       className="mb-1 block text-sm font-medium text-indigo-200/65"
                       htmlFor="topic"
                     >
-                      Services / Products interested in*
+                      Services / Products interested in *
                     </label>
                     <select
                       id="topic"
@@ -125,7 +125,7 @@ export default function Contact() {
                         className="mb-1 block text-sm font-medium text-indigo-200/65"
                         htmlFor="country"
                       >
-                        Country*
+                        Country *
                       </label>
                       <select
                         id="country"
@@ -188,7 +188,7 @@ export default function Contact() {
                     className="mb-1 block text-sm font-medium text-indigo-200/65"
                     htmlFor="subject"
                   >
-                    Subject*
+                    Subject *
                   </label>
                   <input
                     id="subject"
