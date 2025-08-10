@@ -3,24 +3,24 @@ import React from "react";
 const faqs = [
   {
     question:
-      "How Recruitment as a Service works?",
+      "What is TalentHub?",
     answer:
-      "It’s a monthly hiring service that gives you ongoing access to talent, tools, and support. Instead of paying per hire, you get a flexible and cost-effective way to grow your team faster and smarter.",
+      "TalentHub is a subscription-based recruitment service that gives you access to unlimited talent without the high fees or limitations. With a flat monthly rate, you can scale your hiring as your business grows, all while getting high-quality, pre-vetted candidates.",
   },
   {
-    question: "How is TalentHub different from traditional recruitment agencies?",
+    question: "How does TalentHub work?",
     answer:
-      "TalentHub offers unlimited hiring support under a subscription model, plus access to a curated talent pool and smart tools that streamline your entire recruitment process. No commissions, no surprises—just scalable hiring.",
+      "TalentHub offers a simple, subscription-based model. Once you sign up, you get access to a pool of pre-vetted, qualified candidates. You can hire as many roles as you need, at any time, with no additional costs or limits.",
   },
   {
-    question: "Can TalentHub help us hire developers and engineers faster?",
+    question: "How is TalentHub different from traditional recruiting agencies?",
     answer:
-      "Absolutely. TalentHub uses AI-powered matching, automated screening, and real-time collaboration tools to reduce time-to-hire and improve candidate quality—especially for technical roles.",
+      "Unlike traditional agencies, TalentHub charges one low monthly subscription fee rather than high commissions per hire. This model gives you predictable pricing, faster hiring, and more flexibility to grow your team without additional costs per hire.",
   },
   {
-    question: "What is the pricing structure and are there any hidden fees?",
+    question: "How do I get started with TalentHub?",
     answer:
-      "Our pricing is transparent and subscription-based. You pay a flat monthly fee based on your chosen plan—no hidden costs or surprise charges.",
+      "Getting started is simple! Choose a plan that fits your business needs, sign up, and you'll immediately gain access to our talent pool. You can start hiring right away, without any complex processes or hidden fees.",
   },
   {
     question: "How do you keep me informed about the recruitment progress?",

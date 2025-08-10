@@ -9,12 +9,12 @@ export default function PostItem({ ...props }) {
   const isHidden = category !== "All" && category !== props.metadata.category;
 
   return (
-    <article
+     <article
       className={`flex h-full flex-col transition-opacity ${isHidden ? "pointer-events-none opacity-15" : ""}`}
     >
       <header>
         <Link
-          className="group relative mb-6 block overflow-hidden rounded-2xl border border-gray-800/80 before:absolute before:inset-0 before:-z-10 before:bg-linear-to-br before:from-gray-900 before:via-indigo-500/50 before:to-indigo-500 before:opacity-50"
+          className="group relative mb-10 block overflow-hidden rounded-2xl border border-gray-800/80 before:absolute before:inset-0 before:-z-10 before:bg-linear-to-br before:from-gray-900 before:via-indigo-500/50 before:to-indigo-500 before:opacity-50"
           href={`/blog/${props.slug}`}
           tabIndex={-1}
         >
@@ -26,6 +26,7 @@ export default function PostItem({ ...props }) {
             alt={props.metadata.title}
           />
         </Link>
+
         <div className="mb-3">
           <ul className="flex flex-wrap gap-2">
             <li>
@@ -40,6 +41,7 @@ export default function PostItem({ ...props }) {
             </li>
           </ul>
         </div>
+
         <h3 className="mb-2 font-nacelle text-lg font-semibold">
           <Link
             className="text-gray-200 transition hover:text-white"
@@ -49,6 +51,7 @@ export default function PostItem({ ...props }) {
           </Link>
         </h3>
       </header>
+
       <footer className="flex items-center gap-3">
         <Image
           className="inline-flex shrink-0 rounded-full"

@@ -53,28 +53,32 @@ export const metadata = {
 
 import PageIllustration from "@/components/page-illustration";
 import HeroTalentHub from "@/components/hero-talent-hub";
-import FeaturesTalentHub from "@/components/features-talent-hub";
-import FaqsTalentHub from "@/components/faqs-talent-hub";
-import TestimonialsTalentHub from "@/components/testimonials-talent-hub";
+import FeaturesTalentHub from "@/components/features-talenthub";
+import FaqsTalentHub from "@/components/faqs-talenthub";
+import TestimonialsTalentHub from "@/components/testimonials-talenthub";
 import CtaTalentHub from "@/components/cta-talent-hub";
 import ClientsTalentHub from "@/components/clients-talent-hub"
+import PricingTalentHub from "@/components/pricing-home-talenthub";
+import CaseStudiesTalentHub from "@/components/case-studies-talenthub";
 
 /***
- * HeroTalentHub
- * Features & Benefits
- * Pricing 
- * FAQ's
- * Testimonials
+ * Solutions page: TalentHub 
+ * 
+ * 
+ * 
  */
+
 export default function TalentHub() {
   return (
     <>
       <PageIllustration />
       <HeroTalentHub />   
-      {/* <FeaturesTalentHub/> */}
+      <FeaturesTalentHub/>
+      <PricingTalentHub />
       {/* <FaqsTalentHub /> */}
       {/* <TestimonialsTalentHub /> */}
-      {/* <CtaTalentHub /> */}
+      <CaseStudiesTalentHub />
+      <CtaTalentHub />
     </>
   );
 }

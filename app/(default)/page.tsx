@@ -56,12 +56,11 @@ export default function Home() {
       <Hero />
       <Workflows />
       {/* <ServicesCarousel /> */}
-      {/* <Features />
-      <SplitCarousel /> */}
+      {/* <Features /> */}
+      {/* <SplitCarousel /> */}
       <Pricing />
-      {/* <FeatureBlogs /> */}
+      <FeatureBlogs />
       <Cta />
-      <Newsletter />
     </>
   );
 }
