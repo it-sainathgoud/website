@@ -3,12 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function HelpSidebar() {
+export default function LegalSidebar() {
   const pathname = usePathname();
 
   const links = [
     {
-      name: "FAQ's - General Topics",
+      name: "Terms of Use",
       href: "/help/frequently-asked-questions",
     },
     {

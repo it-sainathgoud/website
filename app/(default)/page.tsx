@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Mindtris | Accelerate Business Transformation",
+  title: "Mindtris | Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
   description:
-    "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
+    "Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
   keywords: [
     "Mindtris",
     "digital transformation",
@@ -15,8 +15,8 @@ export const metadata = {
   ],
   authors: [{ name: "Mindtris Inc.", url: "https://mindtris.com" }],
     openGraph: {
-    title: "Mindtris | Accelerate Business Transformation",
-    description: "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
+    title: "Mindtris | Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
+    description: "Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
     url: "https://mindtris.com",
     siteName: "Mindtris",
     images: [

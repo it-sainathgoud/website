@@ -6,9 +6,10 @@ import { Transition } from "@headlessui/react";
 type DropdownProps = {
   children: React.ReactNode;
   title: string;
+  href?: string;
 };
 
-export default function Dropdown({ children, title }: DropdownProps) {
+export default function Dropdown({ children, title, href }: DropdownProps) {
   const dropdownRef = useRef<HTMLUListElement | null>(null);
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
 
@@ -31,10 +32,25 @@ export default function Dropdown({ children, title }: DropdownProps) {
       className="group relative flex items-center gap-0.5 rounded-full px-3 py-1"
       onMouseEnter={() => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
-    > 
-      <span className="flex cursor-pointer items-center text-gray-200 transition group-hover:text-indigo-500">
+    >
+      {/* Render the dropdown title as a link if `href` is provided. This allows the title to navigate to a page (e.g., "/services") 
+          while still showing the dropdown on hover.*/}
+      {/* <span className="flex cursor-pointer items-center text-gray-200 transition group-hover:text-indigo-500">
         {title}
-      </span>
+      </span> */}
+      {href ? (
+        <a
+          href={href}
+          className="flex cursor-pointer items-center text-gray-200 transition group-hover:text-indigo-500"
+        >
+          {title}
+        </a>
+      ) : (
+        <span className="flex cursor-pointer items-center text-gray-200 transition group-hover:text-indigo-500">
+          {title}
+        </span>
+      )}
+
       <button
         className="shrink-0 p-1"
         aria-expanded={dropdownOpen}
@@ -50,7 +66,7 @@ export default function Dropdown({ children, title }: DropdownProps) {
           <path d="m1.06.19 3.5 3.5 3.5-3.5 1.061 1.06-4.56 4.56L0 1.25 1.06.19Z" />
         </svg>
       </button>
-      <span className="absolute right-0 top-full origin-top-left">        
+      <span className="absolute right-0 top-full origin-top-left">
         <Transition
           ref={dropdownRef}
           show={dropdownOpen}

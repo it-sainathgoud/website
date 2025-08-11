@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Mindtris | Accelerate Business Transformation",
+  title: "Mindtris | Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
   description:
-    "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
+    "Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
   keywords: [
     "Mindtris",
     "digital transformation",
@@ -14,11 +14,10 @@ export const metadata = {
     "security & surveillance",
   ],
   authors: [{ name: "Mindtris Inc.", url: "https://mindtris.com" }],
-  openGraph: {
-    title: "Mindtris | Accelerate Business Transformation",
-    description:
-      "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
-    url: "https://mindtris.com/services",
+    openGraph: {
+    title: "Mindtris | Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
+    description: "Mindtris is a global tech consulting firm that helps businesses grow through cloud, AI, analytics, and automation. We improve operations, drive innovation, and deliver better customer experiences.",
+    url: "https://mindtris.com",
     siteName: "Mindtris",
     images: [
       {
@@ -34,26 +33,28 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mindtris | Accelerate Business Transformation",
-    description:
-      "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
+    description: "Mindtris is a global technology consulting and digital solutions firm that partners with organizations across industries to reimagine business models, accelerate innovation, and drive sustainable growth through digital transformation. Serving both public and private sector clients, we bring deep domain expertise and cutting-edge technology capabilities to deliver differentiated customer experiences and impactful business outcomes in an increasingly connected world.",
     images: ["https://mindtris.com/assets/twitter-image.jpg"],
   },
 };
 
+/**
+ * Services page
+ * 
+ * 
+ */
+
 import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-pricing";
-import Faqs from "@/components/faqs";
-import Testimonials from "@/components/testimonials";
+import HeroServices from "@/components/hero-services";
+import Workflows from "@/components/workflows";
 import Cta from "@/components/cta";
 
-export default function Services() {
+export default function Pricing() {
   return (
     <>
       <PageIllustration />
-      <Hero />
-      {/* <Faqs />
-      <Testimonials />
-      <Cta /> */}
+      <HeroServices />
+      <Cta />
     </>
   );
 }

@@ -61,3 +61,7 @@ export function getBlogPosts() {
 export function getHelpPages() {
   return getMDXData(path.join(process.cwd(), "content/help"));
 }
+
+export function getLegalPages() {
+  return getMDXData(path.join(process.cwd(), "content/legal"));
+}

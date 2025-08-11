@@ -111,7 +111,12 @@ export default function Footer() {
           Security & Surveillance
           */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Services</h3>
+            <a href="/services">
+  <h3 className="text-sm font-medium text-gray-200 hover:text-indigo-500">
+    Services
+  </h3>
+</a>
+
             <ul className="space-y-2 text-sm">
               <li>
                 <a

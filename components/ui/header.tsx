@@ -28,11 +28,11 @@ export default function Header() {
                 </Link>
               </li> */}
               {/* Services section start here.. */}
-              <Dropdown title="Services">
+              <Dropdown title="Services" href="/services">
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Digital Transformation
@@ -40,7 +40,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Technology Excellence
@@ -48,7 +48,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Customer Experiences
@@ -56,7 +56,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Talent Mobilization
@@ -64,7 +64,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Healthcare Transformation
@@ -72,7 +72,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Business Growth Solutions
@@ -80,7 +80,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Engineering
@@ -88,7 +88,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/#0"
+                    href="/services"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-white hover:text-indigo-500"
                   >
                     Security & Surveillance
@@ -97,7 +97,7 @@ export default function Header() {
               </Dropdown>
 
               {/* Industries section start here.. */}
-              <Dropdown title="Industries">
+              <Dropdown title="Industries" href="/industries">
                 {/* 2nd level: hover */}
                 <li>
                   <Link
