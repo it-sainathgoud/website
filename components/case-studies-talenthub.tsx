@@ -3,8 +3,8 @@ import Link from "next/link";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 import FeaturesImage from "@/public/images/features.png";
-import PostItem from "@/app/(default)/blog/post-item";
-import { useCategoryProvider } from "@/app/(default)/blog/category-provider";
+// import PostItem from "@/app/(default)/blog/post-item";
+// import { useCategoryProvider } from "@/app/(default)/blog/category-provider";
 
 // Example of metadata for case studies
 const blogPosts = [
