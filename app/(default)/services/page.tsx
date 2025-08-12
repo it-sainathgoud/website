@@ -39,14 +39,13 @@ export const metadata = {
 };
 
 /**
- * Services page
+ * Services page starts here.. 
  * 
  * 
  */
 
 import PageIllustration from "@/components/page-illustration";
 import HeroServices from "@/components/hero-services";
-import Workflows from "@/components/workflows";
 import Cta from "@/components/cta";
 
 export default function Pricing() {

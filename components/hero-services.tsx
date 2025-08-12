@@ -7,7 +7,7 @@ import AvatarImg04 from "@/public/images/avatar-04.jpg";
 import PricingTable from "@/components/pricing-table";
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
-import ServicesOverview from "@/components/services-overview";
+import AllServices from "@/components/services-overview";
 
 export default function HeroServices() {
   return (
@@ -56,7 +56,7 @@ export default function HeroServices() {
         </div>
 
         {/* Services Overview */}
-        <ServicesOverview />
+        <AllServices />
       </div>
     </section>
   );
