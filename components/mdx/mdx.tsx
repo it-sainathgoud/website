@@ -1,5 +1,6 @@
 import React from "react";
-import { MDXRemote } from "next-mdx-remote/rsc";
+// import { MDXRemote } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote";
 import PostLink from "./link";
 import PostImage from "./image";
 import rehypePrettyCode from "rehype-pretty-code";

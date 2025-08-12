@@ -50,19 +50,15 @@ export const metadata = {
 };
 
 import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-pricing";
-import Faqs from "@/components/faqs";
-import Testimonials from "@/components/testimonials";
+import HeroIndustries from "@/components/hero-industries";
 import Cta from "@/components/cta";
 
 export default function Industries() {
   return (
     <>
       <PageIllustration />
-      {/* <Hero /> */}
-      {/* <Faqs />
-      <Testimonials />
-      <Cta /> */}
+      <HeroIndustries />
+      <Cta />
     </>
   );
 }
